@@ -24,7 +24,8 @@ export class Detail extends React.Component {
                 </div>
                <div className="flex flex-col  w-4/6">
 
-                       <img src="/chaise1.jpg"  className=" rounded-lg"/>
+                       <img src="/chaise1.jpg"  className=" rounded-lg w-2/3"/>
+                   <div className="w-1/3"/>
 
                </div>
 
