@@ -15,8 +15,9 @@ export class Detail extends React.Component {
             number.innerHTML = cartArray.length;
         }
 
-        return<div className="flex-1  flex flex-row">
-            <div className="flex-1 flex flex-row justify-center">
+        return<div className="flex-1  flex flex-row  justify-center w-full">
+        <div className="flex-1  flex flex-row  justify-center" style={{maxWidth:"1200px"}}>
+            <div className="flex-1 flex flex-row justify-center ">
                 <div className="flex flex-col m-3 space-y-2 ">
                     <img src="/chaise1.jpg"  className=" rounded-lg w-20 h-20 hover:cursor-pointer"/>
                     <img src="/chaise1.jpg"  className=" rounded-lg w-20 h-20 hover:cursor-pointer"/>
@@ -24,7 +25,7 @@ export class Detail extends React.Component {
                 </div>
                <div className="flex flex-col  w-4/6">
 
-                       <img src="/chaise1.jpg"  className=" rounded-lg w-2/3"/>
+                       <img src="/chaise1.jpg"  className="my-3 rounded-lg w-2/3 h-1/2"/>
                    <div className="w-1/3"/>
 
                </div>
@@ -66,7 +67,7 @@ export class Detail extends React.Component {
             </div>
 
 
-
+        </div>
             </div>;
     }
 }

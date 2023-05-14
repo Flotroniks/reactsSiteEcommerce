@@ -22,7 +22,7 @@ export class Article extends React.Component {
             </p>
             <div className=" mx-3 flex flex-row  w-full justify-between mx-8">
                 <p className="mx-8 text-2xl">134€</p>
-                <p className="">⭐⭐⭐⭐</p>
+                <p className="">⭐⭐⭐⭐⭐</p>
             </div>
         </div>;
     }
