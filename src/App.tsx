@@ -35,7 +35,7 @@ function App() {
                         window.location.href = "/login";
                     }}
                         className="p-2 cursor-pointer">Login</div>
-                    <div className="relative cursor-pointer"
+                    <div className="cursor-pointer flex    "
                         onClick={() => {
                             window.location.href = "/panier";
                         }}
